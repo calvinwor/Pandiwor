@@ -51,17 +51,17 @@ body, html {
 <button class="tablink" onclick="openPage('About', this, 'gray')">About</button>
 
 <div id="Home" class="tabcontent">
-  <div class="w3-content w3-section" style="max-width:700">
-    <img class="mySlides" src="images/1.jpg" style="width:100%">
-    <img class="mySlides" src="images/2.jpg" style="width:100%">
-    <img class="mySlides" src="images/3.jpg" style="width:100%">
-    <img class="mySlides" src="images/4.jpg" style="width:100%">
-    <img class="mySlides" src="images/5.jpg" style="width:100%">
-    <img class="mySlides" src="images/6.jpg" style="width:100%">
-    <img class="mySlides" src="images/7.jpg" style="width:100%">
-    <img class="mySlides" src="images/8.jpg" style="width:100%">
-    <img class="mySlides" src="images/9.jpg" style="width:100%">
-    <img class="mySlides" src="images/10.jpg" style="width:100%">
+  <div class="slideshow" style="max-width:700">
+    <img class="Slides" src="images/1.JPG" style="width:100%">
+    <img class="Slides" src="images/2.jpg" style="width:100%">
+    <img class="Slides" src="images/3.jpg" style="width:100%">
+    <img class="Slides" src="images/4.jpg" style="width:100%">
+    <img class="Slides" src="images/5.jpg" style="width:100%">
+    <img class="Slides" src="images/6.jpg" style="width:100%">
+    <img class="Slides" src="images/7.jpg" style="width:100%">
+    <img class="Slides" src="images/8.jpg" style="width:100%">
+    <img class="Slides" src="images/9.jpg" style="width:100%">
+    <img class="Slides" src="images/10.jpg" style="width:100%">
   </div>
   
   <script>
@@ -70,7 +70,7 @@ body, html {
   
   function carousel() {
     var i;
-    var x = document.getElementsByClassName("mySlides");
+    var x = document.getElementsByClassName("Slides");
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";  
     }
