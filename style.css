@@ -1,5 +1,5 @@
 /* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
+html, body  {
     height: 100%;
     margin: 0;
     font-family: Arial;
